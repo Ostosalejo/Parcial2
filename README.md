@@ -1,1 +1,2 @@
-# Parcial2
+Juan Fajardo
+Alejandro Ostos

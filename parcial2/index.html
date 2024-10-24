@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora en Tiempo Real</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Calculadora en Tiempo Real</h2>
+    <form id="calculatorForm">
+        <label for="name">num1:</label>
+        <input type="text" id="num1" name="name" required><br><br>
+        <label for="name">num2:</label>
+        <input type="text" id="num2" name="name" required><br><br>
+        <!-- Aquí se capturan los números -->
+ 
+        <button type="button" onclick="calculate('sumar')">Sumar</button>
+        <button type="button" onclick="calculate('restar')">restar</button>
+        <button type="button" onclick="calculate('multiplicacion')">multiplicar</button>
+        <button type="button" onclick="calculate('division')">division</button>
+
+        <label>Resultado:</label>
+        <input type="text" id="result" name="result" readonly><br><br>
+    </form>
+</body>
+</html>
